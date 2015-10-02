@@ -1,0 +1,59 @@
+*{margin:0px; padding:0px;}
+a{text-decoration: none;}
+fieldset{border:0 none;}
+img{vertical-align: top;}
+img{border:0 none;}
+
+.blue{color:blue;}
+.listNone{list-style: none;}
+.hide{font-size: 0px; width:0px; height:0px; position: absolute; top:-9999px; left:-9999px;}
+
+
+.header{width:auto; height:32px; background-color: f8f8f8; border-bottom:1px #d5d0cc solid;}
+.center{width:990px; height:32px; border:1px black solid; margin:0 auto;}
+.center ul{line-height: 18pt;}
+
+
+.center .left ul li{line-height: 18pt;}
+.center .left1 ul>li>a>span{margin-right:3px;}
+.center .left1 ul>li{font-size: 12pt;}
+.center .left1{float:left}
+
+.center .left2{float:left; margin-left: 14px;}
+.center .left2 span{margin-right: 6px;}
+
+.center .right{float:right; width:490px; height:32px; border:1px red solid;}
+.center .right ul li a{float:left; margin-left: 12px; font-size: 12px;}
+.center .right ul li:first-child a{margin-left: 0px}
+.center .right ul li a img{margin-top: 5px;}
+
+.top{width:990px; height:108px; border:1px red solid; margin:0 auto;}
+.top .topleft{float:left;  margin-right: 84px;}
+.top .logo{margin-top:35px;}
+.top .list{margin-top:22px;}
+.top .search{margin-left:10px; float:left; margin-top:19px;}
+.top .topleft .list ul li{float:left; margin-left:14px;}
+.top .list ul li:first-child>a{margin-left: 0px;}
+
+
+
+.search{width: 280px; height: 74px; border:1px red solid;}
+
+.search a{height:49px; text-align: center; display:block}
+
+.search fieldset input[type="text"]{width:236px; height: 23px; border:2px #3b5999 solid;}
+.search fieldset input[type="submit"]{width:39px; height:25px; background:url("../images/bobae/icon_search.png") no-repeat; text-indent: -9999px; margin:0}
+
+
+.right_banner{width:245px; height:90px; border:1px red solid; float:right; margin-top:10px;}
+.right_banner .left_content{margin-top: 12px;}
+.right_banner .left_content p{float:left; font-size: 13px; vertical-align: middle; display:block}
+.right_banner .left_content  .button{clear:left}
+.right_banner div{float:left}
+.topbar{width: 990px; height: 71px; border:1px red solid; margin:0 auto;}
+.topbar .bluebar ul li{float:left; margin:12px 19px;}
+.topbar .bluebar{height:38px; background-color: #3b5999; position: relative;}
+.topbar .skybar{position:absolute; width:85px; height:38px; background-color:#5785f2}
+
+.bluebar  ul ul{position: absolute}
+.topbar .bottombar{width:990px; height:38px; border:1px green solid;}
